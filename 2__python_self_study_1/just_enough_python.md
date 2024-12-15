@@ -3,20 +3,21 @@
 A reference for all the Python syntax and language features you need for Python
 Self-Study 1.
 
-- [Comments](#comments)
-- [Data Types](#data-types)
-- [Operators](#operators)
-- [assertions](#assertions)
-- [String Manipulation](#string-manipulation)
-- [Printing](#printing)
-- [Variables](#variables)
-- [Lists](#lists)
-- [Input](#input)
-- [Conditionals](#conditionals)
-- [While Loops](#while-loops)
-- [For-In Loops](#for-in-loops)
-- [Functions](#functions)
-- [Pass](#pass)
+- [Just Enough Python: Cheat Sheet](#just-enough-python-cheat-sheet)
+  - [Comments](#comments)
+  - [Data Types](#data-types)
+  - [Operators](#operators)
+  - [Assertions](#assertions)
+  - [String Manipulation](#string-manipulation)
+  - [Printing](#printing)
+  - [Variables](#variables)
+  - [Lists](#lists)
+  - [Input](#input)
+  - [Conditionals](#conditionals)
+  - [While Loops](#while-loops)
+  - [For-In Loops](#for-in-loops)
+  - [Functions](#functions)
+  - [Pass](#pass)
 
 ---
 
@@ -190,6 +191,10 @@ len("ab")  # 2
 "+a+b+c+".replace("+", "")  # 'abc'
 
 "  abc    ".strip()  # 'abc'
+
+#string[start:end]
+#start: the index where the slice starts (inclusive).
+#end: the index where the slice ends (exclusive).
 
 "abc".find("a")  # 0
 "abc".find("")  # 0
